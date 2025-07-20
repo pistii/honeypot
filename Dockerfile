@@ -1,5 +1,5 @@
 FROM node:18-alpine
 WORKDIR /app
-COPY honeypot-server.js .
+COPY . .
 RUN npm init -y && npm install express
-CMD ["node", "honeypot-server.js"]
+CMD ["npm", "start"]
