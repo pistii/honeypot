@@ -21,3 +21,5 @@ app.all('*', (req, res) => {
 app.listen(port, () => {
   console.log(`🐝 Honeypot server listening on port ${port}`);
 });
+
+app.use("*", );
