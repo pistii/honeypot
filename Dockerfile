@@ -1,4 +1,3 @@
-EXPOSE 8080
 FROM node:18-alpine
 WORKDIR /app
 COPY honeypot-server.js .
